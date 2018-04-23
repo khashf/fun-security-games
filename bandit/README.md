@@ -1,15 +1,10 @@
 # Bandit
 Link: http://overthewire.org/wargames/bandit/
 
-Key found in bandit `n` is used for logging in bandit `n-1` by
+## Example usage
+Key found in challenge `Level 1 -> Level 2` is saved in directory `bandit2` and is used to access `Level 2 -> Level 3` by
 ```
-bandit<bandit #>@bandit.labs.overthewire.org -p 2220
+bandit2@bandit.labs.overthewire.org -p 2220
 ```
-
-e.g. key found in bandit14 is used to logging in bandit 13 by
-```
-bandit13@bandit.labs.overthewire.org -p 2220
-```
-Description for this challenge is listed at `Bandit Level 13 -> Level 14`
 
 
